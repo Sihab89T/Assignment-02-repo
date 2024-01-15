@@ -271,3 +271,66 @@ section {
 } */
 
 /* Banner3 section ends here */
+
+/* Newsletter section starts here */
+
+.banner4 {
+    display: flex;
+    margin-top: 150px;
+    gap: 50px;
+}
+
+.newsletter {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter h2 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.line {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    /* padding-bottom: 50px; */
+}
+
+.form {
+    padding-top: 50px;
+}
+
+.inp-text,
+.inp-email {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.subs-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 405px;
+    height: 52px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.subs-btn:hover{
+    cursor: pointer;
+    background-color:  rgba(26, 182, 174, 0.3);
+}
+
+/* Newsletter section ends here */
