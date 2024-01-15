@@ -36,13 +36,13 @@ section {
     display: flex;
     justify-content: space-between;
     width: 1200px;
-    border: 2px solid teal;
+    /* border: 2px solid teal; */
 }
 
 /* navigation ends here */
 
 /* banner section starts here */
-section {
+.Banner {
     width: 1200px;
     height: 500px;
     margin-top: 60px;
@@ -73,6 +73,7 @@ section {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    margin-bottom: 50px;
 }
 
 .btn-bg {
@@ -92,11 +93,42 @@ section {
     border-radius: 8px;
 }
 
-.Find {
-    border-radius: 8px;
-    background: #FF5400;
-    width: 174px;
-    height: 52px;
-}
 
 /* banner section ends here */
+
+/* <!-- article section starts here --> */
+
+.article {
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.article-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.article-text {
+    width: 50%;
+}
+
+.article-img {
+    width: 50%;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: blueviolet;
+}
+/* <!-- article section ends here --> */
