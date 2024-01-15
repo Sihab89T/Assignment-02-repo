@@ -131,4 +131,50 @@ section {
 .btn-primary:hover {
     background-color: blueviolet;
 }
+
 /* <!-- article section ends here --> */
+
+.banner2{
+    margin-top: 100px;
+    width: width: 1200px;
+}
+
+.banner2-article h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner2-article p{
+    width: 643px;
+    margin: 0 auto;
+}
+
+.img-column1{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.img-column2{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    width: auto;
+}
+
+.img-column3{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+
+/* banner2 section starts here */
+
+.banner2{
+    margin: 20px;
+}
+
+
+/* banner2 section ends here */
